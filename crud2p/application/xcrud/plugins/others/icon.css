@@ -1,0 +1,68 @@
+.icon-blank{
+	background:url('../../others/icons/blank.gif') no-repeat center center;
+}
+.icon-add{
+	background:url('../../others/icons/edit_add.png') no-repeat center center;
+}
+.icon-edit{
+	background:url('../../others/icons/pencil.png') no-repeat center center;
+}
+.icon-remove{
+	background:url('../../others/icons/edit_remove.png') no-repeat center center;
+}
+.icon-save{
+	background:url('../../others/icons/filesave.png') no-repeat center center;
+}
+.icon-cut{
+	background:url('../../others/icons/cut.png') no-repeat center center;
+}
+.icon-ok{
+	background:url('../../others/icons/ok.png') no-repeat center center;
+}
+.icon-no{
+	background:url('../../others/icons/no.png') no-repeat center center;
+}
+.icon-cancel{
+	background:url('../../others/icons/cancel.png') no-repeat center center;
+}
+.icon-reload{
+	background:url('../../others/icons/reload.png') no-repeat center center;
+}
+.icon-search{
+	background:url('../../others/icons/search.png') no-repeat center center;
+}
+.icon-print{
+	background:url('../../others/icons/print.png') no-repeat center center;
+}
+.icon-help{
+	background:url('../../others/icons/help.png') no-repeat center center;
+}
+.icon-undo{
+	background:url('../../others/icons/undo.png') no-repeat center center;
+}
+.icon-redo{
+	background:url('../../others/icons/redo.png') no-repeat center center;
+}
+.icon-back{
+	background:url('../../others/icons/back.png') no-repeat center center;
+}
+.icon-sum{
+	background:url('../../others/icons/sum.png') no-repeat center center;
+}
+.icon-tip{
+	background:url('../../others/icons/tip.png') no-repeat center center;
+}
+.icon-filter{
+	background:url('../../others/icons/filter.png') no-repeat center center;
+}
+
+
+.icon-mini-add{
+	background:url('../../others/icons/mini_add.png') no-repeat center center;
+}
+.icon-mini-edit{
+	background:url('../../others/icons/mini_edit.png') no-repeat center center;
+}
+.icon-mini-refresh{
+	background:url('../../others/icons/mini_refresh.png') no-repeat center center;
+}

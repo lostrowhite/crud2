@@ -1,0 +1,31 @@
+.combo{ 
+    width: 606px !important; 
+    height: 35px !important;
+    border-radius: 5px !important;
+}
+.searchbox{ 
+    width: 600px !important; 
+    height: 35px !important;
+    border-radius: 5px !important;
+}
+.searchbox-text{
+    height: 20px !important;
+    padding: 0px !important;
+    padding-top: 4px !important;
+    padding-left: 10px !important;
+}
+.combo-text{
+    height: 20px !important;
+    padding: 0px !important;
+    padding-top: 4px !important;
+    padding-left: 4px !important;
+}
+.validatebox-text{
+    height: 33px !important;
+    border-radius: 5px !important;
+}
+.combo-arrow{
+    height: 32px !important;
+    position: absolute;
+    margin-left: -760px;
+}

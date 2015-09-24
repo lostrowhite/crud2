@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* SpryCollapsiblepaneln.css - version 0.5 - Spry Pre-Release 1.6.1 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/* This is the selector for the main Collapsiblepaneln container. For our
+ * default style, the Collapsiblepaneln is responsible for drawing the borders
+ * around the widget.
+ *
+ * If you want to constrain the width of the Collapsiblepaneln widget, set a width on
+ * the Collapsiblepaneln container. By default, our Collapsiblepaneln expands horizontally to fill
+ * up available space.
+ *
+ * The name of the class ("Collapsiblepaneln") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style the
+ * Collapsiblepaneln container.
+ */
+.Collapsiblepaneln {
+	margin: 0px;
+	padding: 0px;
+	border-left: solid 1px #CCC;
+	border-right: solid 1px #999;
+	border-top: solid 1px #999;
+	border-bottom: solid 1px #CCC;
+}
+
+/* This is the selector for the CollapsiblepanelnTab. This container houses
+ * the title for the paneln. This is also the container that the user clicks
+ * on to open or close the paneln.
+ *
+ * The name of the class ("CollapsiblepanelnTab") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style an
+ * Collapsiblepaneln paneln tab container.
+ */
+.CollapsiblepanelnTab {
+	font: bold 0.7em sans-serif;
+	background-color: #DDD;
+	border-bottom: solid 1px #CCC;
+	margin: 0px;
+	padding: 2px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+/* This is the selector for a Collapsiblepaneln's Content area. It's important to note that
+ * you should never put any padding on the content area element if you plan to
+ * use the Collapsiblepaneln's open/close animations. Placing a non-zero padding on the content
+ * element can cause the Collapsiblepaneln to abruptly grow in height while the panelns animate.
+ *
+ * The name of the class ("CollapsiblepanelnContent") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style a
+ * Collapsiblepaneln content container.
+ */
+.CollapsiblepanelnContent {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* An anchor tag can be used inside of a CollapsiblepanelnTab so that the
+ * keyboard focus ring appears *inside* the tab instead of around the tab.
+ * This is an example of how to make the text within the anchor tag look
+ * like non-anchor (normal) text.
+ */
+.CollapsiblepanelnTab a {
+	color: black;
+	text-decoration: none;
+}
+
+/* This is an example of how to change the appearance of the paneln tab that is
+ * currently open. The class "CollapsiblepanelnOpen" is programatically added and removed
+ * from panelns as the user clicks on the tabs within the Collapsiblepaneln.
+ */
+.CollapsiblepanelnOpen .CollapsiblepanelnTab {
+	background-color: #EEE;
+}
+
+/* This is an example of how to change the appearance of the paneln tab when the
+ * Collapsiblepaneln is closed. The "CollapsiblepanelnClosed" class is programatically added and removed
+ * whenever the Collapsiblepaneln is closed.
+ */
+
+.CollapsiblepanelnClosed .CollapsiblepanelnTab {
+ /* background-color: #EFEFEF */
+}
+
+/* This is an example of how to change the appearance of the paneln tab as the
+ * mouse hovers over it. The class "CollapsiblepanelnTabHover" is programatically added
+ * and removed from paneln tab containers as the mouse enters and exits the tab container.
+ */
+.CollapsiblepanelnTabHover,  .CollapsiblepanelnOpen .CollapsiblepanelnTabHover {
+	background-color: #CCC;
+}
+
+/* This is an example of how to change the appearance of all the paneln tabs when the
+ * Collapsiblepaneln has focus. The "CollapsiblepanelnFocused" class is programatically added and removed
+ * whenever the Collapsiblepaneln gains or loses keyboard focus.
+ */
+.CollapsiblepanelnFocused .CollapsiblepanelnTab {
+	background-color: #3399FF;
+}
